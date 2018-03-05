@@ -1,23 +1,13 @@
-## 近期正在重构，支持SSR服务器端渲染，敬请关注！
 
-### 前言
+
+### 前言 
+github拷贝lzxb的项目，供学习使用,谢谢大神提供的案例
 
 项目灵感的最初来源是[@shinygang](https://github.com/shinygang/Vue-cnodejs)来自的Vue-cnodejs，
 感谢[cnodejs](https://cnodejs.org/)社区提供的API。
 github：[https://github.com/lzxb/vue-cnode](https://github.com/lzxb/vue-cnode)
 ### 感悟
-```
-在vue-cnode升级vue2的时候，在公司内部已经有两个正式项目使用vue2，
-遇到的一个最难的问题，就是如何能在页面后退时还原数据和滚动条位置，
-虽然vue2内置了keep-alive组件，vue-router也提供了scrollBehavior方法进行设置，
-但是仍然无法满足需求，后来阅读vue-router的源码发现，
-每个页面都会自动在history.state对象中存储一个对应的key值，
-便利用这个特性实现了页面后退时，数据和滚动条还原，
-不过目前只是实现了页面的顶级组件还原，
-如果需要对顶级组件下的子组件实现数据还原，
-可以利用$options._scopeId来实现。
-哈哈，具体如何实现就要靠大家自己发挥想象力了
-```
+
 
 ### 技术栈
 ```
@@ -103,6 +93,4 @@ github：[https://github.com/lzxb/vue-cnode](https://github.com/lzxb/vue-cnode)
 .
 ```
 
-### [扫一扫二维码查看效果](http://lzxb.github.io/vue-cnode/)
- [![扫一扫二维码查看效果](https://github.com/lzxb/vue-cnode/raw/master/shot/QR-code.png)](http://lzxb.github.io/vue-cnode/)
 # vue-app
